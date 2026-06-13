@@ -105,7 +105,7 @@ public class OrderServiceImpl implements OrderService {
         orderRepository.save(order);
     }
 
-    // Helper Method para maging DTO ang Entity natin
+    
     private OrderResponseDTO convertToResponseDTO(Order order) {
         OrderResponseDTO dto = new OrderResponseDTO();
         dto.setId(order.getId());

@@ -7,7 +7,7 @@ public class OrderResponseDTO {
     private Long customerId;
     private Double totalPrice;
     private String status;
-    private List<OrderItemRequestDTO> items; // Ibalik lang kung ano ang binili nila
+    private List<OrderItemRequestDTO> items;
 
     // Getters and Setters
     public Long getId() { return id; }

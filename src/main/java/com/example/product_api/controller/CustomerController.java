@@ -27,6 +27,7 @@ public class CustomerController {
     }
 
     // User Story 2: Get Customer Details (GET /api/customers/{id})
+    
     @GetMapping("/{id}")
     public ResponseEntity<Customer> getCustomer(@PathVariable Long id) {
         return customerService.getCustomerById(id)
